@@ -2,8 +2,8 @@
 
 ; Prologue and  comms section
 M111 S0                             ; Debug off
-M550 PPrusai3				; Machine name (can be anything you like)
-M551 Preprap                        ; Machine password
+M550 Link Printr				; Machine name (can be anything you like)
+M551 root                        ; Machine password
 ;*** If you have more than one Duet on your network, they must all have different MAC addresses, so change the last digits
 M540 P0xBE:0xEF:0xDE:0xAD:0xFE:0xED ; MAC Address
 ;*** ;*** Wifi Networking
